@@ -5,22 +5,64 @@ namespace ex01
 {
     class Program
     {
+        public static int EditDist(string libName, string userName)
+        {
+            int i;
+            int c;
+            int edCount;
+            char[] copy;
+
+            i = 0;
+            c = 0;
+            edCount = 0;            
+            copy = new char[libName.Length];
+            while (i < libName.Length && i < userName.Length)
+            {
+                copy[i] = libName[i];
+                if (libName[i] != userName[i - c])
+                {
+                   edCount++;
+                   c++;
+                }
+                i++;
+            }
+            edCount = edCount + ((libName.Length > userName.Length) ? libName.Length - userName.Length : userName.Length - libName.Length);
+            userName = libName;
+            return (edCount);
+        }
         public static void NameShr(string userName)
         {
             string  libName;
-            bool    flag;
             StreamReader file;
+            string    uns;
 
-            flag = false;
+            uns = null;
             file = new StreamReader("text");
             while ((libName = file.ReadLine()) != null)
             {
                 if (userName == libName)
-                    flag = true;
+                {
+                    Console.WriteLine($">Hello, {userName}");
+                    return;
+                }
             }
-            if (flag)
-                Console.WriteLine($"Hello, {userName}");
             file.Close();
+            file = new StreamReader("text");
+            while ((libName = file.ReadLine()) != null)
+            {
+                if (EditDist(libName, userName) < 3 && libName[0] == userName[0])
+                {
+                    Console.WriteLine($">Вы имели ввиду \"{libName}\"?Y/N");
+                    uns = Console.ReadLine();
+                    if (uns == "y" || uns == "Y")
+                    {
+                        Console.WriteLine($">Hello, {libName}");
+                        return;
+                    }
+                }
+            }
+            file.Close();
+            Console.WriteLine("Your name was not found.");
         }
         static void Main(string[] args)
         {
