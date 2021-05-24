@@ -1,0 +1,15 @@
+/Users/jareo/piscine_cs/Day00/ex01/bin/Debug/net5.0/ex01.deps.json
+/Users/jareo/piscine_cs/Day00/ex01/bin/Debug/net5.0/ex01.runtimeconfig.json
+/Users/jareo/piscine_cs/Day00/ex01/bin/Debug/net5.0/ex01.runtimeconfig.dev.json
+/Users/jareo/piscine_cs/Day00/ex01/bin/Debug/net5.0/ex01.dll
+/Users/jareo/piscine_cs/Day00/ex01/bin/Debug/net5.0/ref/ex01.dll
+/Users/jareo/piscine_cs/Day00/ex01/bin/Debug/net5.0/ex01.pdb
+/Users/jareo/piscine_cs/Day00/ex01/obj/Debug/net5.0/ex01.csprojAssemblyReference.cache
+/Users/jareo/piscine_cs/Day00/ex01/obj/Debug/net5.0/ex01.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jareo/piscine_cs/Day00/ex01/obj/Debug/net5.0/ex01.AssemblyInfoInputs.cache
+/Users/jareo/piscine_cs/Day00/ex01/obj/Debug/net5.0/ex01.AssemblyInfo.cs
+/Users/jareo/piscine_cs/Day00/ex01/obj/Debug/net5.0/ex01.csproj.CoreCompileInputs.cache
+/Users/jareo/piscine_cs/Day00/ex01/obj/Debug/net5.0/ex01.dll
+/Users/jareo/piscine_cs/Day00/ex01/obj/Debug/net5.0/ref/ex01.dll
+/Users/jareo/piscine_cs/Day00/ex01/obj/Debug/net5.0/ex01.pdb
+/Users/jareo/piscine_cs/Day00/ex01/obj/Debug/net5.0/ex01.genruntimeconfig.cache

@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/jareo/.dotnet/store/|arch|/|tfm|",
+      "/Users/jareo/.nuget/packages"
+    ]
+  }
+}
